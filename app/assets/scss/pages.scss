@@ -1,0 +1,27 @@
+.about {
+  &.foundation {
+    @include bgimg('../img/bg-about.jpg');
+    color: #FFF;
+
+    .header {
+      color: #FFF;
+    }
+
+    .title {
+      position: relative;
+
+      sup {
+        font-size: 50px;
+        left: 0;
+        position: absolute;
+        margin-top: 0;
+        top: 50%;
+      }
+
+      p {
+        font-weight: bold;
+        padding-left: 50px;
+      }
+    }
+  }
+}

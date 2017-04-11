@@ -1,0 +1,248 @@
+---
+hero: {
+  'bgUrl': './assets/img/hero-landing.jpg',
+  'title': 'Understand Your <br class="hidden-xs">Legal Rights',
+  'desc': 'Z.Hashim & Co'
+}
+
+services: [
+  {
+    title: 'Banking Law',
+    alt: 'Banking Law',
+    icon: 'moneybag.svg',
+    desc: '<ul><li>Assets & Debt Recovery</li><li>Commercial Loans</li><li>Bankruptcy & Foreclosure</li><li>Liquidation & Receivership</li></ul>'
+  }, 
+  {
+    title: 'Property Law',
+    alt: 'Property Law',
+    icon: 'buildingbank.svg',
+    desc: '<ul><li>Conveyancing</li><li>Land Matters</li><li>Leases &amp; Tenancies</li><li>Financing &amp; Agreements</li></ul>'
+  }, 
+  {
+    title: 'Engineering &amp; Construction',
+    alt: 'Engineering &amp; Construction',
+    icon: 'cogwheel.svg',
+    desc: '<ul><li>Construction Contracts</li><li>Construction Litigation</li><li>Consultancy Agreement</li><li>Procurement Contracts</li></ul>'
+  }, 
+  {
+    title: 'Criminal Law',
+    alt: 'Criminal Law',
+    icon: 'scale.svg',
+    desc: '<ul><li>Divorce Proceedings</li><li>Adoption</li><li>Wills & Trusts</li><li>Estate Administration</li></ul>'
+  }, 
+  {
+    title: 'Shariah Law',
+    alt: 'Shariah Law',
+    icon: 'brokenheart.svg',
+    desc: '<ul><li>Wills & Hibah</li><li>Family Matters</li><li>Criminal Offences</li><li>Administration of Properties</li><li>Adoption</li></ul>'
+  },
+  {
+    title: 'Other Services',
+    alt: 'Other Services',
+    icon: 'plus.svg',
+    desc: '<ul><li>Divorce Proceedings</li><li>Adoption</li><li>Wills & Trusts</li><li>Estate Administration</li></ul>'
+  }
+]
+team: ['01', '02', '03', '04', '05', '06']
+blog: [
+  {title: 'Understanding your constitutional rights with a qualified help'}, 
+  {title: 'Reforming Malaysian company law'}, 
+  {title: 'Uber used secret tool to evade authorities'}
+]
+testimonial: [{
+  copy: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non iaculis risus. Nam at fringilla elit. In orci odio, placerat a luctus at, mollis euismod est. Ut vehicula, lacus et mattis dictum, nulla libero condimentum augue, vitae dictum ex turpis eu tellus. Sed id erat massa. Duis ac enim ac ante tempor commodo ac consequat libero. Donec vel eros aliquet, porta ligula at, congue urna. Interdum et malesuada fames ac ante ipsum primis in faucibus.',
+  client: 'Client #1',
+  meta: 'Founder of XYZ Sdn Bhd'
+},
+{
+  copy: 'Aliquam dignissim malesuada tortor ut lobortis. Duis sagittis turpis eu posuere auctor. Suspendisse elementum, diam eget pulvinar pharetra, lacus nisl vestibulum sem, sed fermentum neque est sollicitudin sapien.',
+  client: 'Client #2',
+  meta: 'Divorcee'
+},
+{
+  copy: 'Sed viverra nulla quis lectus mattis, at sollicitudin nulla pharetra. Vivamus ultricies arcu nec dolor iaculis, a maximus risus molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus consequat enim ac eros auctor suscipit.',
+  client: 'Client #3',
+  meta: 'Scam Victim'
+}]
+---
+
+{{> banner hero}}
+
+<section id="landing-services" class="services">
+  <div class="container">
+    <div class="section-hero hidden-xs">
+      <div class="align-middle">
+        <h1 class="sr-only">What we do</h1>
+        <h2 class="header">Know What You're Up Against</h2>
+        <p><span>Practice Area</span></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="landing-section-content service-content-wrap bg">
+        <div class="visible-xs">
+          <h3 class="header">Know What You're Up Against</h3>
+          <p><span>Practice Area</span></p>
+        </div>
+        <div class="clearfix">
+        {{#each services}}
+            <div class="col">
+              <div class="media">
+                <div class="media-left media-middle">
+                  <div class="icon-wrap icon-circle icon-bg-black icon-border-left media-object">
+                    <div class="icon-border-wrap">
+                      <div class="border-mask">
+                        <div class="border-line"></div>
+                      </div>
+                    </div>
+                    <img src="./assets/img/icons/{{icon}}" alt="{{{alt}}}" class="icon">
+                  </div>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading header">{{{title}}}</h4>
+                  {{{desc}}}
+                </div>
+              </div>
+            </div>
+          {{#modulo nth=2}}
+            </div>
+            <div class="clearfix">
+          {{/modulo}}
+        {{/each}}
+
+        <div class="section-cta">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur provident adipisci, perspiciatis earum rerum tempore consequuntur quaerat dolorum quo ipsam inventore minima sit vitae quas, reiciendis expedita, modi a, maxime!</p>
+          <a href="#" class="btn btn-primary text-lowercase">
+            <p>
+              <span>Enquiry | <strong>Talk to us</strong></span>
+              <span class="icon icon-arrow-right"></span>
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="landing-counter" class="counter section-full-height">
+  <div class="container">
+    <h1 class="sr-only">Our Credentials</h1>
+    <div class="landing-section-content section-hero">
+      <div class="align-middle">
+        <ul>
+          <li><span class="counter">25</span></li>
+          <li>
+            <p>years of<br>experience</p>
+          </li>
+        </ul>
+        <ul>
+          <li><span class="counter">53</span></li>
+          <li>
+            <p>professional<br/>attorneys</p>
+          </li>
+        </ul>
+        <ul>
+          <li><span class="counter">83</span></li>
+          <li>
+            <p>new cases<br/>every year</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="landing-testimonials" class="testimonial">
+  <div class="container">
+    <div class="section-hero hidden-xs">
+      <div class="align-middle">
+        <h1 class="sr-only">Testimonials</h1>
+        <h2 class="header">Hear what they say</h2>
+        <p><span>Testimonials</span></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="landing-section-content testimonial-content-wrap bg">
+        <div class="visible-xs">
+          <h3 class="header">Hear what they say</h3>
+          <p><span>Testimonials</span></p>
+        </div>
+
+        <div class="wrap-testimonial">
+          <div class="testimonial-item slider-slick slick">
+          {{#each testimonial}}
+            <div class="testimonial-item-wrap">
+              <ul>
+                <li class="testimonial-image hidden-xs">
+                  <img src="http://placehold.it/140x150" alt="{{client}}" class="icon">
+                </li>
+                <li class="testimonial-content">
+                  <blockquote>
+                    <p>
+                      {{copy}}
+                    </p>
+                  </blockquote>
+
+                  <p class="title blog"> 
+                    <img src="http://placehold.it/42x45" alt="{{client}}" class="icon visible-xs">
+                    <strong class="header">{{client}}</strong>
+                    <small>- {{meta}}</small>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          {{/each}}
+          </div>
+          <div class="slick-custom-arrows">
+            <p class="slick-current-page"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-tagline bg-accent-red">
+    <div class="container text-center">
+      <div class="landing-section-content">
+        <div class="row">
+          <p>Veritas Vincit Omnia</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="landing-contact" class="contact">
+  <div class="container">
+    <div class="section-hero hidden-xs">
+      <div class="align-middle">
+        <h1 class="sr-only">Contact Us</h1>
+        <h2 class="header">Tell Us Your Story</h2>
+        <p><span>Contact Us</span></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="landing-section-content">
+        <div class="visible-xs">
+          <h2 class="header">Tell Us Your Story</h2>
+          <p><span>Contact Us</span></p>
+        </div>
+        <form action="">
+          <div class="col-xs-12">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <input type="text" class="form-control" placeholder="Contact Number" required>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <div class="col-xs-12">
+            <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Enquiry"></textarea>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

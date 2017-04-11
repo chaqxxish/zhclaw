@@ -1,0 +1,31 @@
+<section class="hero container visible-xs">
+  <div class="col-xs-12">
+    <h2 class="header">{{{title}}}</h2>
+    <p>{{desc}}</p>
+  </div>
+</section>
+
+<section class="hero hidden-xs section-full-height" {{#if bgUrl}}style="background-image: url('{{{bgUrl}}}')"{{/if}}>
+  <div class="container">
+    <div class="section-hero">
+      <div class="align-middle">
+        <h2 class="header">{{{title}}}</h2>
+        <p>
+          <span>{{desc}}</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {{#if text}}
+  <div class="bg-text">
+    <div class="container">
+      <div class="row">
+        <div class="text-wrap">
+          {{{text}}}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/if}}
+</section>

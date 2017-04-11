@@ -1,0 +1,53 @@
+$font-family-sans-serif: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-size-base: 14px;
+
+$oswald-reg: 300;
+$oswald-bold: 500;
+
+$open-reg: 400;
+$open-bold: 700;
+
+$blockquote-font-size: $font-size-base;
+
+$text-color: #57534D;
+
+$brand-primary: #eb0029;
+$gray-lighter: #f1f2f2;
+$gray-light: #bcbec0;
+$gray: #5c6670;
+$gray-dark: #58595b;
+$gray-darker: #111820;
+$header-color: #1e252b;
+
+
+$navbar-height: 80px;
+$navbar-border-radius: 0;
+$navbar-margin-bottom: 0;
+
+$navbar-default-bg: #000;
+$navbar-default-border: transparent;
+$navbar-default-color: #FFFFFF;
+$navbar-default-link-color: #FFF;
+$navbar-default-link-hover-color: $gray-light;
+
+$navbar-default-link-active-color:  darken($navbar-default-link-hover-color, 20);
+$navbar-default-link-active-bg:     darken($navbar-default-bg, 2);
+
+$navbar-default-toggle-border-color: transparent;
+$navbar-default-toggle-hover-bg: transparent;
+$navbar-default-toggle-icon-bar-bg: #FFF;
+
+$border-radius-base: 2px;
+$border-radius-large: 4px;
+
+/* -- FONT -------- */
+$icon-twitter: '\e800';
+$icon-arrow-left: '\e801';
+$icon-arrow-right: '\e802';
+$icon-facebook: '\e806';
+$icon-instagram: '\e811';
+$icon-rss: '\f09e';
+$icon-linkedin: '\f0e1';
+

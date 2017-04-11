@@ -1,0 +1,156 @@
+---
+hero: {
+  'bgUrl': './assets/img/hero_bg_about.jpg',
+  'title': 'Get To <br class="hidden-xs">Know Us',
+  'desc': 'Get to know your professionals',
+  'text': '<p>Founded in 2004 with its headquarters in Melaka being the first to be set up amongst ZHC’s Group of Legal Offices. The Firm offers a wide range of in-house and external legal expertise that serves government agencies, private companies and individuals locally, nationally and internationally</p>'
+}
+
+foundation: [
+  {
+    'number': '1',
+    'title': "Clarify and understand the clients' requirements",
+    'desc': 'At the outset of the business venture, we clarify the clients needs and understand clients organisation, its structure, business concerns, activities and current issues and challenges. In the process, we obtain clients’ agreement on the expected deliverables'
+  },
+  {
+    'number': '2',
+    'title': 'Provide the agreed services right at the very first time',
+    'desc': 'A clear step by step work process shall be explained to and understood by clients. Costs implication will be estimated during the early stage of the partnering. In return, the clients will be able to perform check and balances on the work progress based on the agreed deliverables; '
+  },
+  {
+    'number': '3',
+    'title': 'Take all necessary steps to prevent re-work',
+    'desc': 'Throughout the work process, measures are taken to remove foreseeable barriers and eliminate potential hassles. By this, we ensures the expeditious provision of  multiple solutions to clients and offers a comprehensive and commercially competitive service.'
+  }
+]
+---
+{{> banner hero}}
+
+
+<section class="bg-2col">
+  <div class="container">
+    <div class="row">
+      <div class="title-wrap">
+        <hr class="hr-red hr-left">
+        <h1 class="header">
+          A Commitment to Excellence.<br/>
+          A Passion For Justice.
+        </h1>
+        <p>
+          Our lawyers have had previous experience with and acted successfully for the following business partners, to name a few...
+        </p>
+      </div>
+
+      <div class="content-wrap">
+        <h3 class="header">Mission</h3>
+        <hr class="hr-red hr-left">
+        <p>
+          Strives to achieve results that meet, and whenever possible exceed our Stakeholders expectations through Our Commitment to:
+        </p>
+            
+
+        <ul class="list-with-icon">
+          <li class="icon">
+            <img class="media-object" alt="Commitment to our clients" src="./assets/img/icons/heart.svg">
+          </li>
+          <li>
+            <h4>Our Clients</h4>
+            by being accessible, efficient, responsive and technologically sophisticated
+          </li>
+        </ul>
+
+        <ul class="list-with-icon">
+          <li class="icon">
+            <img class="media-object" alt="Commitment to our clients" src="./assets/img/icons/tie.svg">
+          </li>
+          <li>
+            <h4>Our Employees</h4>
+            by sustaining an enriching work environment through diversity and teamwork
+          </li>
+        </ul>
+
+        <ul class="list-with-icon">
+          <li class="icon">
+            <img class="media-object" alt="Commitment to our clients" src="./assets/img/icons/people.svg">
+          </li>
+          <li>
+            <h4>Our Communities</h4>
+            by providing extensive and worthy pro bono and public service
+          </li>
+        </ul>
+
+        <h3 class="header">Vision</h3>
+        <hr class="hr-red hr-left">
+        <p>
+          To Be The Preferred Law Firm That Provides Comprehensive and Effective Solutions To All Legal Needs.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about foundation">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="text-center">
+          <hr class="hr-red">
+          <h1 class="header">Our Foundation</h1>
+          <p>Built on a  strong  corporate  foundation and with a broad legal experience, ZHC believes in its Three Pillars of Business Philosophy. Thus, in delivering quality services that meet the clients needs effectively, promptly and competitively, ZHC consistently:</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      {{#each foundation}}
+      <div class="col-sm-4">
+        <div class="title">
+          <p>
+            <sup>{{number}}</sup>
+            {{title}}
+          </p>
+        </div>
+        <p class="desc">
+          {{desc}}
+        </p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="bg-2col">
+  <div class="container">
+    <div class="row">
+      <div class="title-wrap">
+        <hr class="hr-red hr-left">
+        <h1 class="header">
+          &#8220; We Care &#8221;
+        </h1>
+        <p>
+          Our Brand Value, &#8220;WE CARE&#8221; stands on a simple acronym but touches the very reason of our clients' well being. We undertake to provide COST EFFECTIVE services that ADD VALUE to our clients. We shall RESPONSE QUICKLY to clients' need where each client will be served by our EXPERTS from the relevant field of practice. We undertake to uphold ZHC's Shared Values in all our activities:
+        </p>
+      </div>
+
+      <div class="content-wrap">
+        <p>
+          <b class="text-uppercase header">Compassion</b><br/>
+          <b>the heart of ZHC's existence</b><br/>
+          Professionalism rides in tandem with the passion and humility to serve and to succeed.
+        </p>
+
+        <p>
+          <b class="text-uppercase header">Integrity</b><br/>
+          <b>is the nerve system to a lasting business partnership</b><br/>
+          Honest, trustworthy and protecting clients' best interest in all dealings.
+        </p>
+
+        <p>
+          <b class="text-uppercase header">Quality</b><br/>
+          <b>is the key to our Firm's success</b><br/>
+          Expeditiously and effectively response to client's needs and commercial objectives.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
